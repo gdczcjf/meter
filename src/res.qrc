@@ -1,0 +1,43 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pic/frame.png</file>
+        <file>pic/closeButton.png</file>
+        <file>pic/adjustButton.png</file>
+        <file>movie/1.JPG</file>
+        <file>movie/2.JPG</file>
+        <file>movie/3.JPG</file>
+        <file>movie/4.JPG</file>
+        <file>movie/5.JPG</file>
+        <file>movie/6.JPG</file>
+        <file>movie/7.JPG</file>
+        <file>movie/8.JPG</file>
+        <file>movie/9.JPG</file>
+        <file>movie/10.JPG</file>
+        <file>movie/11.JPG</file>
+        <file>movie/12.JPG</file>
+        <file>movie/13.JPG</file>
+        <file>movie/14.JPG</file>
+        <file>movie/15.JPG</file>
+        <file>movie/16.JPG</file>
+        <file>movie/17.JPG</file>
+        <file>movie/18.JPG</file>
+        <file>movie/19.JPG</file>
+        <file>movie/20.JPG</file>
+        <file>movie/21.JPG</file>
+        <file>movie/22.JPG</file>
+        <file>movie/23.JPG</file>
+        <file>movie/24.JPG</file>
+        <file>movie/25.JPG</file>
+        <file>movie/26.JPG</file>
+        <file>movie/27.JPG</file>
+        <file>pic/button/autosample_up.png</file>
+        <file>pic/button/clean_up.png</file>
+        <file>pic/button/close_up.png</file>
+        <file>pic/button/display_down.png</file>
+        <file>pic/button/display_up.png</file>
+        <file>pic/button/fullscreen_down.png</file>
+        <file>pic/button/fullscreen_up.png</file>
+        <file>pic/button/range_up.png</file>
+        <file>pic/button/sample_up.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HelpWin</class>
+ <widget class="QDialog" name="HelpWin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>781</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:22pt; color:#000000;&quot;&gt;多功能电学数据采集器&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'文泉驿微米黑'; font-size:22pt; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:15pt; font-weight:600;&quot;&gt;一、电表界面&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:large; font-weight:600;&quot;&gt;1.基本操作&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'文泉驿微米黑'; font-size:large; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑';&quot;&gt;接通电源，进入电表界面。&lt;/span&gt; &lt;/li&gt;
+&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑';&quot;&gt;点击任一空白电表，即在点击处新建电表，请根据实测对象选择正确的通道和量程。&lt;/span&gt; &lt;/li&gt;
+&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑';&quot;&gt;把测量输入端短接并进行调零。&lt;/span&gt; &lt;/li&gt;
+&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑';&quot;&gt;将被测量接入正确的通道，该电表共有4个通道，6对接口。电压通道一的接口为V1，电压通道二的接口为V2。一个电流通道对应2对接口，当使用3Ａ量程时性必须连接到3Ａ接口，比如电流通道一对应0.6A-1和3A-1接口，当电流小于0.6A时接在0.6A-1上，当电流大于0.6小于3A时接在3A接口上。&lt;/span&gt; &lt;/li&gt;
+&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑';&quot;&gt;打开和关闭电表菜单：当触摸电表表盘时可以打开或关闭电表菜单。&lt;/span&gt; &lt;/li&gt;
+&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑';&quot;&gt;切换量程：打开相应电表菜单，点击量程，在弹出的对话框中选择你想要的量程（确保你切换量程后的量程相对于你接入的电流或电压是安全的，否则可能损坏电表）&lt;/span&gt; &lt;/li&gt;
+&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑';&quot;&gt;进入和退出全屏：打开相应电表，点击全屏／退出全屏。&lt;/span&gt; &lt;/li&gt;
+&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑';&quot;&gt;关闭电表：打开相应电表，点击关闭。&lt;/span&gt; &lt;/li&gt;
+&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑';&quot;&gt;返回主界面：点击电表界面右上角带有“𐌢”形的半透明按钮。&lt;/span&gt; &lt;/li&gt;
+&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑';&quot;&gt;当输入电压超过量程时，指针会以闪烁的方式提醒,如果输入电压大于最大测量值的二倍以上时可能会损坏仪器。&lt;/span&gt; &lt;/li&gt;&lt;/ol&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:large; font-weight:600;&quot;&gt;2.读数显示&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'文泉驿微米黑'; font-size:large; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑';&quot;&gt;        对于最小量程是1或2结尾的电表，其估读值采用十分估读法，即最终读数=精确值+估读数字*最小量程/10；对于最小量程是5结尾的电表，其估读值分采用五分估读法，即最终读数=精确值+估读数字*最小量程/5。 &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑';&quot;&gt;        例：0-3A的量程最小是0.1A的，那么估读到0.01A；0-0.6A的最小量程是0.02A，那么估读到0.002A；0-50mA的量程最小是1mA，估读到0.1mA；0-300μA的量程最小是5μA，估读到1μA；-50—50μA的量程最小是1μA，估读到0.1μA；0-200V的最小量程是5V，估读到1V；0-15V最小量程是0.5V，估读到0.1V；0-3V最小量程是0.1V，估读到0.01V；-200—200mV最小量程10mV，估读到1mV。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:large; font-weight:600;&quot;&gt;3.数据采集和记录&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'文泉驿微米黑'; font-size:large; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑';&quot;&gt;        &lt;/span&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:medium;&quot;&gt;数据采集功能可以方便的记录数据，用能制表或曲线绘制。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑';&quot;&gt;        &lt;/span&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:medium;&quot;&gt;1.定时采集：打开电表菜单，你就可以容易的找到定时采集按钮。注意，定时采集是对所有已打开电表同时进行数据记录的，且在采集前会清空原有数据。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑';&quot;&gt;        &lt;/span&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:medium;&quot;&gt;2.手动记录：手动记录是记录当前电表的读数。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑';&quot;&gt;        &lt;/span&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:medium;&quot;&gt;3.数据查看：回到主界面，单击数据处理，在原始数据选项卡将显示所有记录的数据。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:large; font-weight:600;&quot;&gt;4.电表调零&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑';&quot;&gt;        把将要调零的电表输入端短接，点击电表下方中间的调零旋钮，在弹出的窗口中选择调零，看到电表指针对准0刻度，说明完成调零。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'文泉驿微米黑';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:large; font-weight:600;&quot;&gt;5.电表校准&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'文泉驿微米黑'; font-size:large; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑';&quot;&gt;        电表校准是指当电表测到值到真实值存在校大偏差时，对其进行校准的操作。主要在是在出厂时或电表元件老化之后才对其进行该操作。在平时使用时，请尽量不要进行校准。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑';&quot;&gt;        在校准电表之前，请先进行调零，然后接入电表最大量程的标准电压（这时不用理会电表是否提示超出量程），然后点击校正。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:15pt; font-weight:600;&quot;&gt;二、数据处理&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:large; font-weight:600;&quot;&gt;1.显示电表数据&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'文泉驿微米黑'; font-size:large; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑';&quot;&gt;        &lt;/span&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:medium;&quot;&gt;原始数据选项卡将显示所有记录的数据&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'文泉驿微米黑'; font-size:medium;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:large; font-weight:600;&quot;&gt;2.导入数据&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'文泉驿微米黑'; font-size:large; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑';&quot;&gt;        &lt;/span&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:medium;&quot;&gt;所有要进行处理的数据都在数据处理选项卡中进行，你可以通过导入数据来快速输入数据。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'文泉驿微米黑'; font-size:medium;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:large; font-weight:600;&quot;&gt;3.数据计算&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'文泉驿微米黑'; font-size:large; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑';&quot;&gt;        &lt;/span&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:medium;&quot;&gt;数据计算提提供一些常用的计算公式，你可以通过这些公式模板来快速计算大批的数据。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'文泉驿微米黑'; font-size:medium;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:large; font-weight:600;&quot;&gt;4.数据编辑&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'文泉驿微米黑'; font-size:large; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑';&quot;&gt;        &lt;/span&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:medium;&quot;&gt;单击你要编辑的单元格，在弹出的对话框选择你要执行的操作。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'文泉驿微米黑'; font-size:medium;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:large; font-weight:600;&quot;&gt;5.曲线描绘&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'文泉驿微米黑'; font-size:large; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'文泉驿微米黑';&quot;&gt;        &lt;/span&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:medium;&quot;&gt;选择好你要作图的数据&lt;/span&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:13pt;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:medium;&quot;&gt;画线方式&lt;/span&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:13pt;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:medium;&quot;&gt;网格&lt;/span&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:13pt;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:medium;&quot;&gt;积分值，然后单击作图。你还可能把所作的曲线图以&lt;/span&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:13pt;&quot;&gt;png&lt;/span&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:medium;&quot;&gt;格式保存在&lt;/span&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:13pt;&quot;&gt;U&lt;/span&gt;&lt;span style=&quot; font-family:'文泉驿微米黑'; font-size:medium;&quot;&gt;盘。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>430</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Home</class>
+ <widget class="QDialog" name="Home">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Home</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>false</bool>
+  </property>
+  <widget class="QPushButton" name="pushButton_meter">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>70</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:reflect, cx:0.5, cy:0.5, radius:1.164, fx:0.5, fy:0.505682, stop:0 rgba(255, 255, 255, 255), stop:0.753695 rgba(12, 148, 235, 255), stop:1 rgba(0, 47, 84, 255));</string>
+   </property>
+   <property name="text">
+    <string>电表界面</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_calculator">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>210</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:reflect, cx:0.5, cy:0.5, radius:1.164, fx:0.5, fy:0.505682, stop:0 rgba(255, 255, 255, 255), stop:0.753695 rgba(12, 148, 235, 255), stop:1 rgba(0, 47, 84, 255));</string>
+   </property>
+   <property name="text">
+    <string>计算器</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_meter_2">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>140</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:reflect, cx:0.5, cy:0.5, radius:1.164, fx:0.5, fy:0.505682, stop:0 rgba(255, 255, 255, 255), stop:0.753695 rgba(12, 148, 235, 255), stop:1 rgba(0, 47, 84, 255));</string>
+   </property>
+   <property name="text">
+    <string>数据处理</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_calculator_2">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>280</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:reflect, cx:0.5, cy:0.5, radius:1.164, fx:0.5, fy:0.505682, stop:0 rgba(255, 255, 255, 255), stop:0.753695 rgba(12, 148, 235, 255), stop:1 rgba(0, 47, 84, 255));</string>
+   </property>
+   <property name="text">
+    <string>设置</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_calculator_3">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>350</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:reflect, cx:0.5, cy:0.5, radius:1.164, fx:0.5, fy:0.505682, stop:0 rgba(255, 255, 255, 255), stop:0.753695 rgba(12, 148, 235, 255), stop:1 rgba(0, 47, 84, 255));</string>
+   </property>
+   <property name="text">
+    <string>帮助</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
