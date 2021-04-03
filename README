@@ -1,0 +1,15 @@
+大四时做的一个项目，该程序跑在一个嵌入式系统上（外观类似ipad）
+
+*build on windows:
+1.install qt5 width mingw
+2.install cmake
+3.cd meter/build_debug
+4.cmake ../src -G "CodeBlocks - MinGW Makefiles" -DCMAKE_BUILD_TYPE:=Debug -DCMAKE_MAKE_PROGRAM:=C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -DCMAKE_CXX_COMPILER:=C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/g++.exe -DCMAKE_C_COMPILER:=C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/gcc.exe -DCMAKE_PREFIX_PATH:=C:/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake -DQT_QMAKE_EXECUTABLE:=C:/Qt/Qt5.14.2/5.14.2/mingw73_64/bin/qmake.exe
+5.mingw32-make.exe -j12
+
+*build on linux
+1.sudo apt install libqt5serialport5-dev 
+2.sudo apt install cmake
+4.cd meter/build_debug
+5.cmake ../src
+6.make -j12
