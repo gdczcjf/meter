@@ -563,41 +563,36 @@ bool Figure::linearAnaly(QVector<double> *x,QVector<double> *y,double *a, double
 }
 bool Figure::linearAnaly_2(QVector<double> *x,QVector<double> *y,double *a, double *b, double *c)//y=a*x*x+b*x+c
 {
-    int i,j;
-    double d[3][4];
+    double d[3][4] = {0.0};
+    //算法的实现
+    for (int i = 0; i < x->count(); ++i)
+    {
+        d[0][0] = x->count();
+        d[0][1] += x->at(i);
+        d[0][2] += x->at(i) * x->at(i);
+        d[0][3] += y->at(i);
 
-    //对数组数据的初始化
-    for (i = 0; i < 3; ++i)
-        for (j = 0; j < 4; ++j)
-            d[i][j] = 0.0;
+        d[1][0] = d[0][1];
+        d[1][1] = d[0][2];
+        d[1][2] += x->at(i) * x->at(i) * x->at(i);
+        d[1][3] += y->at(i) * x->at(i);
 
-        //算法的实现
-        for (i = 0; i < x->count(); ++i)
-        {
-            d[0][0] = x->count();
-            d[0][1] += x->at(i);
-            d[0][2] += x->at(i) * x->at(i);
-            d[0][3] += y->at(i);
+        d[2][0] = d[1][1];
+        d[2][1] = d[1][2];
+        d[2][2] += x->at(i) * x->at(i) * x->at(i) * x->at(i);
+        d[2][3] += y->at(i) * x->at(i) * x->at(i);
+    }
 
-            d[1][0] = d[0][1];
-            d[1][1] = d[0][2];
-            d[1][2] += x->at(i) * x->at(i) * x->at(i);
-            d[1][3] += y->at(i) * x->at(i);
+    for (int i = 1; i < 3; ++i)
+    {
+        for (int j = 1; j < 4; ++j)
+            d[i][j] -= d[0][j] * d[i][0] / d[0][0];
+    }
 
-            d[2][0] = d[1][1];
-            d[2][1] = d[1][2];
-            d[2][2] += x->at(i) * x->at(i) * x->at(i) * x->at(i);
-            d[2][3] += y->at(i) * x->at(i) * x->at(i);
-        }
-
-        for (i = 1; i < 3; ++i)
-            for (j = 1; j < 4; ++j)
-                d[i][j] -= d[0][j] * d[i][0] / d[0][0];
-
-        //解三元线性方程组
-        *b = (d[1][3] * d[2][2] - d[2][3] * d[1][2]) / (d[1][1] * d[2][2] - d[2][1] * d[1][2]);
-        *a = (d[1][3] * d[2][1] - d[2][3] * d[1][1]) / (d[1][2] * d[2][1] - d[2][2] * d[1][1]);
-        *c = (d[0][3] - d[0][1] * (*b) - d[0][2] * (*a)) / d[0][0];
+    //解三元线性方程组
+    *b = (d[1][3] * d[2][2] - d[2][3] * d[1][2]) / (d[1][1] * d[2][2] - d[2][1] * d[1][2]);
+    *a = (d[1][3] * d[2][1] - d[2][3] * d[1][1]) / (d[1][2] * d[2][1] - d[2][2] * d[1][1]);
+    *c = (d[0][3] - d[0][1] * (*b) - d[0][2] * (*a)) / d[0][0];
     return true;
 }
 
